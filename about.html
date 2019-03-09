@@ -9,59 +9,72 @@
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="shortcut icon" href="ratfavi.ico" />
     <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <title>Chicago Rats Be Gone D3</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-family: 'Laila', serif;
+        }
+
+        .row {
+            margin: 0;
+        }
+
+        .about-section {
+            min-height: 100%;
+            min-width: 100%;
+            background: url("homeBg.png");
+            background-size: cover;
+        }
+
+        .about-section .button-block {
+            padding: 0;
+            width: 18rem;
+            margin: 0 auto;
+        }
+
+        .about-section .button-block .about-btn {
+            margin-top: 1rem;
+            padding: 0.8rem;
+            width: 100%;
+            font-size: 1.5rem;
+            border: 2px double white;
+            color: white;
+            background: #12121a;
+            border-radius: 10%;
+        }
+
+        .about-section .button-block .about-btn:hover,
+        .about-section .button-block .about-btn:active,
+        .about-section .button-block .about-btn:focus {
+            outline: none;
+            color: #12121a;
+            background: white;
+            border: 2px double #12121a;
+        }
+
+        .about-section .about-text {
+            margin: 2.5rem auto;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .about-section .repo-link {
+            font-size: 3rem;
+            color: white;
+        }
+
+        .repo-link:hover,
+        .repo-link:active,
+        .repo-link:focus {
+            opacity: 0.8;
+        }
+    </style>
 </head>
-
-<style>
-    html,
-    body {
-        height: 100%;
-        font-family: 'Laila', serif;
-    }
-
-    .row {
-        margin: 0;
-    }
-
-    .about-section {
-        min-height: 100%;
-        min-width: 100%;
-        background: url("homeBg.png");
-        background-size: cover;
-    }
-
-    .about-section .button-block {
-        padding: 0;
-        width: 18rem;
-        margin: 0 auto;
-    }
-
-    .about-section .button-block .about-btn {
-        margin-top: 1rem;
-        padding: 0.8rem;
-        width: 100%;
-        font-size: 1.5rem;
-        border: 2px double white;
-        color: white;
-        background: #12121a;
-        border-radius: 10%;
-    }
-
-    .about-section .button-block .about-btn:hover,
-    .about-section .button-block .about-btn:active,
-    .about-section .button-block .about-btn:focus {
-        outline: none;
-        color: #12121a;
-        background: white;
-        border: 2px double #12121a;
-    }
-
-    .about-section .about-text {
-        margin: 2.5rem auto;
-        color: white;
-        font-size: 1.5rem;
-    }
-</style>
 
 <body>
     <div class="row about-section d-flex justify-content-center align-items-center">
@@ -71,12 +84,21 @@
                     <button class="about-btn">Return To Home Page</button>
                 </a>
             </div>
-            <div class="col-12 col-md-10 col-lg-8 col-xl-5 about-text text-center animated zoomIn delay-1s">
-                <p>In recent years, Chicago has been receiving increasing numbers of rodent infestation complaints. It is important for the
-                city government to actively engage in resolving rat complaints, as rats can cause huge property damage and spread
-                harmful pathogens to humans. This interactive visualization project consists of a story section that illustrates the severity 
-                and patterns of rat complaints within the city of Chicago, and also a dashboard section for viewers to explore the rat complaints
-                at a community level.</p>
+            <div class="col-12 col-md-10 col-lg-8 col-xl-5 about-text text-center animated zoomIn">
+                <p>In recent years, Chicago has been receiving increasing numbers of rodent infestation complaints. It
+                    is important for the
+                    city government to actively engage in resolving rat complaints, as rats can cause huge property
+                    damage and spread
+                    harmful pathogens to humans. This interactive visualization project consists of a story section that
+                    illustrates the severity
+                    and patterns of rat complaints within the city of Chicago, and also a dashboard section for viewers
+                    to explore the rat complaints
+                    at a community level.</p>
+            </div>
+            <div class="text-center animated zoomIn delay-1s">
+                <a class="repo-link" href="https://github.com/data-driven-dorks/Chicago-Rats-Be-Gone-Storytelling">
+                    <i class="fab fa-github-square"></i>
+                </a>
             </div>
         </div>
     </div>

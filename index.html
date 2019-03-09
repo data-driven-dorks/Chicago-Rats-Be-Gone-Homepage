@@ -10,58 +10,61 @@
     <link rel="shortcut icon" href="ratfavi.ico" />
     <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
     <title>Chicago Rats Be Gone D3</title>
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            font-family: 'Laila', serif;
+        }
+
+        .row {
+            margin: 0;
+        }
+
+        .home-section {
+            height: 100%;
+            width: 100%;
+            background: url("homeBg.png");
+            background-size: cover;
+        }
+
+        .home-section .homepage-title {
+            background: -webkit-linear-gradient(#cb202d, #fcee21);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 3.5rem;
+            font-weight: bold;
+            padding: 1rem;
+        }
+
+        .home-section .button-block {
+            padding: 0;
+            width: 18rem;
+            margin: 0 auto;
+        }
+
+        .home-section .button-block .homepage-btn {
+            margin-top: 1rem;
+            padding: 0.8rem;
+            width: 100%;
+            font-size: 1.5rem;
+            border: 2px double white;
+            color: white;
+            background: #12121a;
+            border-radius: 10%;
+        }
+
+        .home-section .button-block .homepage-btn:hover,
+        .home-section .button-block .homepage-btn:active,
+        .home-section .button-block .homepage-btn:focus {
+            outline: none;
+            color: #12121a;
+            background: white;
+            border: 2px double #12121a;
+        }
+    </style>
 </head>
-
-<style>
-html, body {
-    height: 100%;
-    font-family: 'Laila', serif;
-}
-
-.row {
-    margin: 0;
-}
-
-.home-section {
-    height: 100%;
-    width: 100%;
-    background: url("homeBg.png");
-    background-size: cover;
-}
-
-.home-section .homepage-title {
-    background: -webkit-linear-gradient(#cb202d, #fcee21);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 3.5rem;
-    font-weight: bold;
-    padding: 1rem;
-}
-
-.home-section .button-block {
-    padding: 0;
-    width: 18rem;
-    margin: 0 auto;
-}
-
-.home-section .button-block .homepage-btn {
-    margin-top: 1rem;
-    padding: 0.8rem;
-    width: 100%;
-    font-size: 1.5rem;
-    border: 2px double white;
-    color: white;
-    background: #12121a;
-    border-radius: 10%;
-}
-
-.home-section .button-block .homepage-btn:hover, .home-section .button-block .homepage-btn:active, .home-section .button-block .homepage-btn:focus {
-    outline: none;
-    color: #12121a;
-    background: white;
-    border: 2px double #12121a;
-}
-</style>
 
 <body>
     <div class="row home-section d-flex justify-content-center align-items-center">
