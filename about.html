@@ -73,6 +73,34 @@
         .repo-link:focus {
             color: rgb(247, 171, 27);
         }
+
+        .project-description-text {
+            font-size: 1rem;
+        }
+
+        .data-source-title {
+            margin-bottom: 0.3rem;
+        }
+
+        ul {
+            -webkit-padding-start: 0;
+        }
+
+        ul > li {
+            list-style-type: none;
+        }
+
+        ul > li > a {
+            color: white;
+            font-size: 1rem;
+            margin-top: 0;
+        }
+
+        ul > li > a:hover, 
+        ul > li > a:active, 
+        ul > li > a:focus {
+            color: rgb(247, 171, 27);
+        }
     </style>
 </head>
 
@@ -85,7 +113,8 @@
                 </a>
             </div>
             <div class="col-12 col-md-10 col-lg-8 col-xl-5 about-text text-center animated zoomIn">
-                <p>In recent years, Chicago has been receiving increasing numbers of rodent infestation complaints. It
+                <p>Project Description:</p>
+                <p class="project-description-text">In recent years, Chicago has been receiving increasing numbers of rodent infestation complaints. It
                     is important for the
                     city government to actively engage in resolving rat complaints, as rats can cause huge property
                     damage and spread
@@ -94,6 +123,36 @@
                     and patterns of rat complaints within the city of Chicago, and also a dashboard section for viewers
                     to explore the rat complaints
                     at a community level.</p>
+            </div>
+            <div class="col-12 col-md-10 col-lg-8 col-xl-5 about-text text-center animated zoomIn">
+                <p class="data-source-title">Data Sources:</p>
+                <ul>
+                    <li><a
+                            href="https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Rodent-Baiting-No-Duplicates/uqhs-j723">City
+                            of Chicago Data Portal Rodent Baiting</a></li>
+                    <li><a
+                            href="https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Sanitation-Code-Complaints-No/rccf-5427">City
+                            of Chicago Data Portal Sanitation Code Violations</a></li>
+                    <li><a href="https://data.boston.gov/dataset/311-service-requests">Analyze Boston 311 Service
+                            Requests</a></li>
+                    <li><a href="http://opendata.dc.gov/datasets/city-service-requests-in-2018">Open Data DC City
+                            Service
+                            Requests</a></li>
+                    <li><a
+                            href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/data">NYC
+                            Open Data 311 Service Requests</a></li>
+                    <li><a href="https://data.lacity.org/A-Well-Run-City/MyLA311-Service-Request-Data-2018/h65r-yf5i">Eric
+                            Garcetti @
+                            MayorOfLA</a></li>
+                    <li><a href="https://data.detroitmi.gov/Government/Improve-Detroit-Issues/fjru-bz8m/data">City of
+                            Detroit
+                            Open Data</a></li>
+                    <li><a href="https://api.census.gov/data/2016/acs/acs5/variables.html">American Community Survey
+                            2016
+                            5-Year Table</a></li>
+                    <li><a href="http://us-city.census.okfn.org/dataset/service-requests">Other City Data Portals</a>
+                    </li>
+                </ul>
             </div>
             <div class="text-center animated zoomIn delay-1s">
                 <a class="repo-link" href="https://github.com/data-driven-dorks/Chicago-Rats-Be-Gone-Homepage">
